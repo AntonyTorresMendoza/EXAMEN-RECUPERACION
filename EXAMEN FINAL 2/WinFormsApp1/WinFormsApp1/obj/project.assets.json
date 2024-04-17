@@ -1,0 +1,119 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "AccesoDatos/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/AccesoDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccesoDatos.dll": {}
+        }
+      },
+      "LogicaDeNegocio/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "AccesoDatos": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LogicaDeNegocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LogicaDeNegocio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AccesoDatos/1.0.0": {
+      "type": "project",
+      "path": "../AccesoDatos/AccesoDatos.csproj",
+      "msbuildProject": "../AccesoDatos/AccesoDatos.csproj"
+    },
+    "LogicaDeNegocio/1.0.0": {
+      "type": "project",
+      "path": "../LogicaDeNegocio/LogicaDeNegocio.csproj",
+      "msbuildProject": "../LogicaDeNegocio/LogicaDeNegocio.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "AccesoDatos >= 1.0.0",
+      "LogicaDeNegocio >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ACER\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\EXAMEN FINAL 2\\WinFormsApp1\\WinFormsApp1\\CVentas.csproj",
+      "projectName": "CVentas",
+      "projectPath": "D:\\EXAMEN FINAL 2\\WinFormsApp1\\WinFormsApp1\\CVentas.csproj",
+      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+      "outputPath": "D:\\EXAMEN FINAL 2\\WinFormsApp1\\WinFormsApp1\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "D:\\EXAMEN FINAL 2\\WinFormsApp1\\AccesoDatos\\AccesoDatos.csproj": {
+              "projectPath": "D:\\EXAMEN FINAL 2\\WinFormsApp1\\AccesoDatos\\AccesoDatos.csproj"
+            },
+            "D:\\EXAMEN FINAL 2\\WinFormsApp1\\LogicaDeNegocio\\LogicaDeNegocio.csproj": {
+              "projectPath": "D:\\EXAMEN FINAL 2\\WinFormsApp1\\LogicaDeNegocio\\LogicaDeNegocio.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+D:\EXAMEN FINAL 2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
+D:\EXAMEN FINAL 2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\AAFormularioVentas.csproj.GenerateResource.cache
+D:\EXAMEN FINAL 2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\AAFormularioVentas.GeneratedMSBuildEditorConfig.editorconfig
+D:\EXAMEN FINAL 2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\AAFormularioVentas.AssemblyInfoInputs.cache
+D:\EXAMEN FINAL 2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\AAFormularioVentas.AssemblyInfo.cs
+D:\EXAMEN FINAL 2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\AAFormularioVentas.csproj.CoreCompileInputs.cache
+D:\EXAMEN FINAL 2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\AAFormularioVentas.sourcelink.json
